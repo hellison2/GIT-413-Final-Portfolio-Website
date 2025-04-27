@@ -51,10 +51,22 @@ table {
 
 
 /* GENERAL SETTINGS */
+body {
+    font-family: "Helvetica", Sans-Serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    text-align: center;
+}
 /* GENERAL SETTINGS */
 
 
 /* HOME PAGE SETTINGS */
+
 /* END HOME PAGE SETTINGS */
 
 
