@@ -101,7 +101,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  padding: 20px;
+  padding: 50px;
 }
 
 nav a {
@@ -160,6 +160,7 @@ button {
 
 footer {
   text-align: center;
+  padding: 70px;
 }
 /* GENERAL SETTINGS */
 
@@ -197,6 +198,11 @@ footer {
 
 
 /* PROJECTS PAGE SETTINGS */
+.projects-page-sections {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 800px;
+}
 /* END PROJECTS PAGE SETTINGS */
 
 
