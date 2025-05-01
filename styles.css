@@ -63,23 +63,22 @@ body {
     font-family: "Helvetica", Sans-Serif;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin: auto;
-  text-align: center;
-}
-
 header {
   background-color: var(--light-teal);
   position: relative;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav {
   text-align: right;
   display: flex;
+  justify-content: flex-end;
+}
+
+nav h2 {
+  visibility: hidden;
 }
 
 nav a {
@@ -90,6 +89,14 @@ nav a {
 h1 {
   position: relative;
   color: var(--slate);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  text-align: center;
 }
 /* GENERAL SETTINGS */
 
