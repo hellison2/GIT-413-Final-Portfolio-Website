@@ -61,14 +61,12 @@ table {
 
 body {
   font-family: "Helvetica", Sans-Serif;
-  width: 100%;
   max-width: 100%;
 }
 
 header {
   background-color: var(--light-teal);
   position: relative;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 50px;
@@ -126,6 +124,7 @@ h1 {
   color: var(--slate);
   font-size: x-large;
   font-weight: bolder;
+  align-items: center;
 }
 
 h2 {
@@ -167,7 +166,8 @@ button {
 }
 
 #home-about img {
-  width: 20%;
+  max-width: 25%;
+  height: auto;
 }
 
 #home-about button {
