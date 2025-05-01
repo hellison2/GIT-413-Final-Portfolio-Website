@@ -61,7 +61,6 @@ table {
 
 body {
   font-family: "Helvetica", Sans-Serif;
-  max-width: 100%;
 }
 
 header {
@@ -165,6 +164,10 @@ button {
   width: 90%;
 }
 
+#home-about div {
+  padding: 20px;
+}
+
 #home-about img {
   max-width: 25%;
   height: auto;
@@ -176,7 +179,6 @@ button {
 
 #home-projects {
   background-color: var(--dark-blue);
-  width: 80%;
 }
 
 .home-projects-slides {
