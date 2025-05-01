@@ -99,11 +99,11 @@ nav ul {
   flex-direction: row;
   justify-content: space-between;
   text-align: right;
+  flex-wrap: wrap;
 }
 
 nav li {
   display: inline-block;
-  padding: 10%;
 }
 
 nav a {
@@ -148,6 +148,12 @@ h4 {
 p {
   font-size: medium;
 }
+
+button {
+  padding: 10px;
+  color: var(--light-teal);
+  border: var(--dark-blue) 5px solid;
+}
 /* GENERAL SETTINGS */
 
 
@@ -157,10 +163,15 @@ p {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  width: 90%;
 }
 
 #home-about img {
   width: 20%;
+}
+
+#home-about button {
+  margin-top: 20px;
 }
 
 #home-projects {
