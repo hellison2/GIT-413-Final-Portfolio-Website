@@ -71,6 +71,17 @@ header {
   justify-content: space-between;
 }
 
+header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+header img {
+  width: 10%;
+  height: 10%;
+}
+
 nav {
   text-align: right;
   display: flex;
@@ -79,6 +90,13 @@ nav {
 
 nav h2 {
   visibility: hidden;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
 }
 
 nav a {
