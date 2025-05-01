@@ -51,16 +51,41 @@ table {
 
 
 /* GENERAL SETTINGS */
+:root {
+  --light-teal: #D0FAFF;
+	--teal: #90E9E9;
+	--deep-teal: #00C2CC;
+	--dark-blue: #015E7A;
+	--slate: #1C1F21;
+}
+
 body {
     font-family: "Helvetica", Sans-Serif;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: auto;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  text-align: center;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  text-align: right;
+  background-color: var(--light-teal);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--slate);
+}
+
+h1 {
+  position: relative;
+  color: var(--slate);
 }
 /* GENERAL SETTINGS */
 
