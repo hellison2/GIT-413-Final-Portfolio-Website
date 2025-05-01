@@ -152,6 +152,10 @@ button {
   color: var(--light-teal);
   border: var(--dark-blue) 5px solid;
 }
+
+footer {
+  text-align: center;
+}
 /* GENERAL SETTINGS */
 
 
@@ -192,6 +196,15 @@ button {
 
 
 /* ABOUT PAGE SETTINGS */
+#about-page {
+  display: flex;
+  flex-direction: row;
+}
+
+#about-page img {
+  width: 30%;
+  height: auto;
+}
 /* END ABOUT PAGE SETTINGS SETTINGS */
 
 
