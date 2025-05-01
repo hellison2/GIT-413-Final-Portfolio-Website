@@ -71,11 +71,15 @@ main {
   text-align: center;
 }
 
-nav {
+header {
+  background-color: var(--light-teal);
   position: relative;
   width: 100%;
+}
+
+nav {
   text-align: right;
-  background-color: var(--light-teal);
+  display: flex;
 }
 
 nav a {
@@ -91,9 +95,7 @@ h1 {
 
 
 /* HOME PAGE SETTINGS */
-hr.solid {
-    border-top: 3px solid #000;
-  }
+
 /* END HOME PAGE SETTINGS */
 
 
