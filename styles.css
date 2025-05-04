@@ -205,6 +205,18 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
+
+.projects-button {
+  padding: 50px;
+  background-color: var(--light-teal);
+  border: 3px solid var(--dark-blue);
+  border-radius: 10px;
+}
+
+.projects-button a:hover {
+  background-color: var(--dark-blue);
+  border: 3px solid var(--slate);
+}
 /* END PROJECTS PAGE SETTINGS */
 
 
