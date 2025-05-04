@@ -209,7 +209,7 @@ footer {
 
 /* INDIVIDUAL PROJECTS PAGE SETTINGS */
 .projects-images {
-
+  width: 70%;
 }
 
 .projects-images ul {
@@ -227,6 +227,14 @@ footer {
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
+  border: 1px solid var(--slate);
+}
+
+.projects-explanations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 20px;
 }
 /* END INDIVIDUAL PROJECTS PAGE SETTINGS */
 
