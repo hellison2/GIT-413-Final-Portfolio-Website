@@ -203,7 +203,6 @@ footer {
 .projects-page-sections {
   display: flex;
   flex-direction: row;
-  padding: 100px 800px;
 }
 /* END PROJECTS PAGE SETTINGS */
 
