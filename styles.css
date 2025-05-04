@@ -206,6 +206,10 @@ footer {
   grid-template-rows: 1fr;
 }
 
+.projects-page-sections img {
+  width: fit-content;
+}
+
 .projects-button {
   padding: 50px;
   background-color: var(--light-teal);
