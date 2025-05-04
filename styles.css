@@ -201,8 +201,9 @@ footer {
 
 /* PROJECTS PAGE SETTINGS */
 .projects-page-sections {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 /* END PROJECTS PAGE SETTINGS */
 
