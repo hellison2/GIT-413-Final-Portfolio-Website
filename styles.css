@@ -207,7 +207,8 @@ footer {
 }
 
 .projects-page-sections img {
-  width: fit-content;
+  width: 200px;
+  height: auto;
 }
 
 .projects-button {
