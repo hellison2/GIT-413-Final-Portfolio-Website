@@ -260,6 +260,11 @@ footer {
 #about-page {
   display: flex;
   flex-direction: row;
+  margin: auto;
+}
+
+#about-page p {
+  padding: 50px;
 }
 
 #about-page img {
